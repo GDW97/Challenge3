@@ -2,6 +2,7 @@
 *{
   font-family: 'Smooch Sans', sans-serif;
 }
+/*mobiel*/
 @media only screen and (min-width: 375px){
     *{
     margin: 0;
@@ -36,7 +37,7 @@ header{
 }
 }
 
-/*------------------------------- Ipad ------------------------------- */
+/*-Ipad */
 @media only screen and (min-width: 768px){
   header{
     display:grid;
@@ -55,7 +56,7 @@ header{
   }
 }
 
-/*------------------------------- Laptop------------------------------- */
+/*Laptop*/
 @media only screen and (min-width: 1024px){
 header{
     display:grid;
@@ -78,7 +79,7 @@ header{
 
 }
 
-/*------------------------------- Desktop ------------------------------- */
+/*Desktop  */
 @media only screen and (min-width: 1720px){
   h1{
     font-size: 100px;
